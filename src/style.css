@@ -27,6 +27,8 @@ input {
   font-size: 15px;
   outline: none;
   transition: border-color 0.3s;
+  display: block;
+  margin: 0 auto;
 }
 
 input:focus {
