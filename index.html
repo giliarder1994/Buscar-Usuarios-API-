@@ -5,16 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lista de Usuários - Busca em Tempo Real</title>
   <link rel="stylesheet" href="src/style.css">
+  <link rel="shortcut icon" href="favicon.png" type="image/x-png">
 </head>
 <body>
-  <h1>📋 Lista de Usuários</h1>
-  <div>
-    <input id="campoBusca" type="text" placeholder="Digite um nome para buscar...">
-    <span id="loading" class="loader hidden"></span>
-  </div>
-  
-  <p id="status" class="fade">🔄 Aguardando carregamento...</p>
-  <div id="lista" class="lista-usuarios"></div>
+  <header>
+    <div class="fundo-titulo">
+      <h1>📋 Lista de Usuários</h1>
+      <div>
+        <input id="campoBusca" type="text" placeholder="Digite um nome para buscar...">
+        <span id="loading" class="loader hidden"></span>
+        <p id="status" class="fade">🔄 Aguardando carregamento...</p>
+      </div>
+    </div>
+  </header>
+  <section>
+    <div>
+      
+      <div id="lista" class="lista-usuarios"></div>
+    </div>
+  </section>
 
   <script src="src/main.js"></script>
 </body>
